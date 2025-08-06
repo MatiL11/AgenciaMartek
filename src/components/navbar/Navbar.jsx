@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from 'react';
 import { routes } from '../../routes/routeConfig';
-import martekLogo from '../../assets/Logos/martek_logo_text_white_only.png';
+import martekLogo from '../../assets/Logos/martek_logo_round_white.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

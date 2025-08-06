@@ -51,6 +51,10 @@
   box-sizing: border-box;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
