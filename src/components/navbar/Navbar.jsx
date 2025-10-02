@@ -41,7 +41,7 @@ const Navbar = () => {
                         : 'text-gray-200 hover:text-white'
                     }`}
                   >
-                    {route.name}
+                    {route.title}
                   </Link>
                 ))}
               </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
               to="/contact"
               className="font-satoshi-bold bg-gray-800/80 hover:bg-gray-900/90 backdrop-blur-sm text-white px-6 py-3 rounded-full text-sm font-medium transition-all duration-200 shadow-sm hover:shadow-md border border-white/20"
             >
-              GET A QUOTE
+              OBTÉN COTIZACIÓN
             </Link>
           </div>
           
@@ -92,7 +92,7 @@ const Navbar = () => {
                       : 'text-gray-200 hover:text-white hover:bg-white/10'
                   }`}
                 >
-                  {route.name}
+                  {route.title}
                 </Link>
               ))}
               <div className="border-t border-white/20 pt-3 mt-3">
@@ -107,7 +107,7 @@ const Navbar = () => {
                   onClick={() => setIsMenuOpen(false)}
                   className="block mx-3 mt-2 bg-gray-800/80 hover:bg-gray-900/90 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium text-center transition-all duration-200 border border-white/20"
                 >
-                  GET A QUOTE
+                  OBTÉN COTIZACIÓN
                 </Link>
               </div>
             </div>

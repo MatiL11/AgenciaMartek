@@ -12,67 +12,67 @@ const OurServices = () => {
         {/* Título principal */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-satoshi-bold text-gray-900 mb-4">
-            Social marketing services
+            Servicios de marketing social
           </h2>
         </div>
 
         {/* Grid de servicios */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {/* Real time analytics */}
+          {/* Análisis en tiempo real */}
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
               <MagnifyingGlassIcon className="w-16 h-16 text-gray-800 stroke-1" />
             </div>
-            <h3 className="text-lg font-satoshi-bold  text-gray-900 mb-4">Real time analytics</h3>
+            <h3 className="text-lg font-satoshi-bold  text-gray-900 mb-4">Análisis en tiempo real</h3>
             <p className="text-gray-600 text-md font-satoshi-medium leading-relaxed">
-              We deliver email marketing campaigns to your audience.
+              Entregamos campañas de email marketing a tu audiencia.
             </p>
           </div>
 
-          {/* Keywords analytics */}
+          {/* Análisis de palabras clave */}
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
               <GlobeAltIcon className="w-16 h-16 text-gray-800 stroke-1" />
             </div>
-            <h3 className="text-lg font-satoshi-bold text-gray-900 mb-4">Keywords analytics</h3>
+            <h3 className="text-lg font-satoshi-bold text-gray-900 mb-4">Análisis de palabras clave</h3>
             <p className="text-gray-600 text-md font-satoshi-medium leading-relaxed">
-              We also help our clients with social media strategy.
+              También ayudamos a nuestros clientes con estrategias de redes sociales.
             </p>
           </div>
 
-          {/* SEO optimization */}
+          {/* Optimización SEO */}
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
               <ChartBarIcon className="w-16 h-16 text-gray-800 stroke-1" />
             </div>
-            <h3 className="text-lg font-satoshi-bold text-gray-900 mb-4">SEO optimization</h3>
+            <h3 className="text-lg font-satoshi-bold text-gray-900 mb-4">Optimización SEO</h3>
             <p className="text-gray-600 text-md font-satoshi-medium leading-relaxed">
-              We believe in challenges and so we have made challenges.
+              Creemos en los desafíos y por eso hemos creado desafíos.
             </p>
           </div>
 
-          {/* Boost performance */}
+          {/* Mejorar rendimiento */}
           <div className="text-center">
             <div className="w-20 h-20 mx-auto mb-6 flex items-center justify-center">
               <RocketLaunchIcon className="w-16 h-16 text-gray-800 stroke-1" />
             </div>
-            <h3 className="text-lg font-satoshi-bold text-gray-900 mb-4">Boost performance</h3>
+            <h3 className="text-lg font-satoshi-bold text-gray-900 mb-4">Mejorar rendimiento</h3>
             <p className="text-gray-600 text-md font-satoshi-medium leading-relaxed">
-              Team delivers incomparable quality with designing.
+              El equipo entrega calidad incomparable con diseño.
             </p>
           </div>
         </div>
 
         {/* Estadísticas */}
         <div className="grid pt-12 grid-cols-1 font-satoshi-bold md:grid-cols-3 gap-8">
-          {/* 99% Track and analyze */}
+          {/* 99% Rastrear y analizar */}
           <div className="bg-white rounded-xl p-8 shadow-lg text-center">
             <div className="text-6xl text-gray-900 mb-2">99<span className="text-3xl">%</span></div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Track and analyze</h4>
-            <p className="text-gray-600 text-sm">business reports</p>
+            <h4 className="text-lg font-bold text-gray-900 mb-2">Rastrear y analizar</h4>
+            <p className="text-gray-600 text-sm">reportes de negocio</p>
           </div>
 
-          {/* 4.98 Best rated agency */}
+          {/* 4.98 Agencia mejor calificada */}
           <div className="bg-white rounded-xl p-8 shadow-lg text-center">
             <div className="text-6xl font-black text-gray-900 mb-2">4.98</div>
             <div className="flex justify-center mb-2">
@@ -82,14 +82,14 @@ const OurServices = () => {
                 </svg>
               ))}
             </div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Best rated agency</h4>
+            <h4 className="text-lg font-bold text-gray-900 mb-2">Agencia mejor calificada</h4>
           </div>
 
-          {/* 98% Genuine repeated */}
+          {/* 98% Clientes genuinos repetidos */}
           <div className="bg-white rounded-xl p-8 shadow-lg text-center">
             <div className="text-6xl font-black text-gray-900 mb-2">98<span className="text-3xl">%</span></div>
-            <h4 className="text-lg font-bold text-gray-900 mb-2">Genuine repeated</h4>
-            <p className="text-gray-600 text-sm">happy customers</p>
+            <h4 className="text-lg font-bold text-gray-900 mb-2">Clientes genuinos repetidos</h4>
+            <p className="text-gray-600 text-sm">clientes satisfechos</p>
           </div>
         </div>
       </div>

@@ -8,60 +8,60 @@ const ServicesShowcase = () => {
 
   const services = {
     keyword: {
-      title: 'Keywords lead to customers.',
-      description: 'We are committed to deliver unique digital media solutions from web design to eCommerce solutions for our clients by using our knowledge and expertise.',
-      badge: 'KEYWORD RESEARCH',
+      title: 'Las palabras clave llevan a los clientes.',
+      description: 'Estamos comprometidos a entregar soluciones únicas de medios digitales desde diseño web hasta soluciones de eCommerce para nuestros clientes utilizando nuestro conocimiento y experiencia.',
+      badge: 'INVESTIGACIÓN DE PALABRAS CLAVE',
       image: '/api/placeholder/500/400', // Reemplaza con tu imagen
       features: [
-        'Comprehensive keyword analysis',
-        'Competitor research',
-        'Search volume insights',
-        'Long-tail keyword discovery'
+        'Análisis integral de palabras clave',
+        'Investigación de competidores',
+        'Insights de volumen de búsqueda',
+        'Descubrimiento de palabras clave de cola larga'
       ]
     },
     target: {
-      title: 'Power your online visibility.',
-      description: 'We are committed to deliver unique digital media solutions from web design to eCommerce solutions for our clients by using our knowledge and expertise.',
-      badge: 'TARGET ANALYSIS',
+      title: 'Potencia tu visibilidad online.',
+      description: 'Estamos comprometidos a entregar soluciones únicas de medios digitales desde diseño web hasta soluciones de eCommerce para nuestros clientes utilizando nuestro conocimiento y experiencia.',
+      badge: 'ANÁLISIS DE OBJETIVOS',
       image: '/api/placeholder/500/400',
       features: [
-        'Audience segmentation',
-        'Demographic analysis',
-        'Behavioral insights',
-        'Customer journey mapping'
+        'Segmentación de audiencia',
+        'Análisis demográfico',
+        'Insights de comportamiento',
+        'Mapeo del viaje del cliente'
       ]
     },
     social: {
-      title: 'Brand identity and strategy.',
-      description: 'We are committed to deliver unique digital media solutions from web design to eCommerce solutions for our clients by using our knowledge and expertise.',
-      badge: 'SOCIAL MARKETING',
+      title: 'Identidad de marca y estrategia.',
+      description: 'Estamos comprometidos a entregar soluciones únicas de medios digitales desde diseño web hasta soluciones de eCommerce para nuestros clientes utilizando nuestro conocimiento y experiencia.',
+      badge: 'MARKETING SOCIAL',
       image: '/api/placeholder/500/400',
       features: [
-        'Content strategy',
-        'Community management',
-        'Paid social campaigns',
-        'Analytics and reporting'
+        'Estrategia de contenido',
+        'Gestión de comunidad',
+        'Campañas sociales pagadas',
+        'Análisis y reportes'
       ]
     },
     email: {
-      title: 'Email campaigns that work.',
-      description: 'We are committed to deliver unique digital media solutions from web design to eCommerce solutions for our clients by using our knowledge and expertise.',
-      badge: 'EMAIL CAMPAIGN',
+      title: 'Campañas de email que funcionan.',
+      description: 'Estamos comprometidos a entregar soluciones únicas de medios digitales desde diseño web hasta soluciones de eCommerce para nuestros clientes utilizando nuestro conocimiento y experiencia.',
+      badge: 'CAMPAÑA DE EMAIL',
       image: '/api/placeholder/500/400',
       features: [
-        'Email automation',
-        'Personalization',
-        'A/B testing',
-        'Performance tracking'
+        'Automatización de email',
+        'Personalización',
+        'Pruebas A/B',
+        'Seguimiento de rendimiento'
       ]
     }
   };
 
   const tabs = [
-    { id: 'keyword', label: 'Keyword research' },
-    { id: 'target', label: 'Target analysis' },
-    { id: 'social', label: 'Social marketing' },
-    { id: 'email', label: 'Email campaign' }
+    { id: 'keyword', label: 'Investigación de palabras clave' },
+    { id: 'target', label: 'Análisis de objetivos' },
+    { id: 'social', label: 'Marketing social' },
+    { id: 'email', label: 'Campaña de email' }
   ];
 
   const currentService = services[activeTab];
@@ -140,7 +140,7 @@ const ServicesShowcase = () => {
               whileHover={{ x: 5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              LEARN MORE
+              APRENDE MÁS
               <ArrowRightIcon className="ml-2 w-4 h-4" />
             </motion.button>
           </div>

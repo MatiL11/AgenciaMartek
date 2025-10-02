@@ -21,11 +21,6 @@ export const routes = [
     title: 'Proceso'
   },
   {
-    path: '/pricing',
-    name: 'Pricing',
-    title: 'Precios'
-  },
-  {
     path: '/contact',
     name: 'Contact',
     title: 'Contacto'

@@ -25,7 +25,7 @@ const SEOAnalysis = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          Receive your free SEO analysis?
+          ¿Recibe tu análisis SEO gratuito?
         </motion.h2>
         
         {/* Botón de contacto con animación */}
@@ -46,7 +46,7 @@ const SEOAnalysis = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            GET FREE ANALYSIS
+            OBTÉN ANÁLISIS GRATIS
             <motion.div
               className="ml-3"
               animate={{ x: [0, 5, 0] }}

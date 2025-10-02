@@ -12,15 +12,15 @@ const Hero = () => {
             <div className="absolute -top-5 left-20 w-2 h-2 bg-blue-400 rounded-full"></div>
             
             <h1 className="text-8xl lg:text-8xl font-bold text-white leading-none">
-              Organic<br/>
-              <span className="font-satoshi-black text-9xl">results</span>
+              Resultados<br/>
+              <span className="font-satoshi-black text-9xl">orgánicos</span>
             </h1>
             <p className="text-lg text-gray-100 max-w-md">
-              We offer flexible pricing plans so that our clients can take advantage of services.
+              Ofrecemos planes de precios flexibles para que nuestros clientes puedan aprovechar nuestros servicios.
             </p>
             <button className="text-white px-8 py-4 rounded-full font-medium transition-all duration-300 inline-flex items-center shadow-lg hover:shadow-xl transform hover:scale-105" 
                     style={{background: 'linear-gradient(135deg, #5B73F5 0%, #7C8EF7 50%, #9FA8F9 100%)'}}>
-              GET FREE ANALYSIS
+              OBTÉN ANÁLISIS GRATIS
               <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>

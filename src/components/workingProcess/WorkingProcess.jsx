@@ -30,16 +30,16 @@ const WorkingProcess = () => {
             <div className="mb-6">
               <span className="inline-block px-6 py-3 text-gray-900 text-xs font-satoshi-bold tracking-wider rounded-lg mb-4 shadow-lg" 
                     style={{background: 'linear-gradient(135deg, #5B73F5 0%, #7C8EF7 50%, #9FA8F9 100%)'}}>
-                WORKING PROCESS
+                PROCESO DE TRABAJO
               </span>
             </div>
             
             <h2 className="text-4xl md:text-5xl font-satoshi-bold text-gray-900 mb-6 leading-tight">
-              Simple working process to start.
+              Proceso de trabajo simple para comenzar.
             </h2>
             
             <p className="text-gray-600 text-lg font-satoshi-medium leading-relaxed mb-8">
-              We are committed to deliver unique digital media solutions from web development to eCommerce solutions for our happy clients by using our knowledge and expertise.
+              Estamos comprometidos a entregar soluciones únicas de medios digitales desde desarrollo web hasta soluciones de eCommerce para nuestros clientes satisfechos utilizando nuestro conocimiento y experiencia.
             </p>
             
             <motion.button 
@@ -47,7 +47,7 @@ const WorkingProcess = () => {
               whileHover={{ x: 5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
-              LEARN MORE
+              APRENDE MÁS
               <ArrowRightIcon className="ml-2 w-4 h-4" />
             </motion.button>
           </div>
